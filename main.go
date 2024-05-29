@@ -24,6 +24,7 @@ func downloadMP3(w http.ResponseWriter, r *http.Request) {
 		io.WriteString(w, "method not allowed")
 		return
 	}
+
 	body, err := io.ReadAll(r.Body)
 	if err != nil {
 		panic(err)
