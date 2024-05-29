@@ -3,7 +3,7 @@
 This is a simple website to download audio (as `.m4a`) from YouTube using [yt-dlp](https://github.com/yt-dlp/yt-dlp).
 
 Here's a screenshot of the website:
-[screenshot](./screenshot.png)
+![screenshot](./screenshot.png)
 
 
 ## Running Locally
